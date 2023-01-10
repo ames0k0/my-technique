@@ -16,7 +16,7 @@ def main():
             'organizations', (
               'organization_h2b7',
               'organization_sh1chan',
-            )
+            ),
             'users', (
               'users_ames0k0',
               'users_aintp3d0',
