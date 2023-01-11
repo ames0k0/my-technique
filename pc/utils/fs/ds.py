@@ -6,7 +6,7 @@ from ofacd import DirectoryStructure
 def main():
   ds = DirectoryStructure('identities')
 
-  ds.add(
+  ds.add((
     'ames0k0',
     (
       'profile', (
@@ -27,9 +27,9 @@ def main():
         )
       ),
     )
-  )
+  ))
 
-  ds.add(
+  ds.add((
     'ames0k0',
     (
       'profile', (
@@ -38,9 +38,9 @@ def main():
         )
       ),
     )
-  )
+  ))
 
-  ds.add(
+  ds.add((
     'fr1th',
     (
       'profile', (
@@ -48,7 +48,7 @@ def main():
         'code',
       ),
     )
-  )
+  ))
 
   ds.create()
 
